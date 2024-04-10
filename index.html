@@ -1,219 +1,445 @@
 <!DOCTYPE html>
 <html lang="en">
+    <head>
+        <meta charset="UTF-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <link rel="shortcut icon" type="image/png" href="./images/Aditya.png" />
 
-<head>
-  <meta charset="UTF-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <link rel="shortcut icon" type="image/png" href="./images/Aditya.png" />
+        <!-- Put your site title here -->
+        <title>
+            Aditya Todi | Full Stack Developer | Machine Learning Developer
+        </title>
 
-  <!-- Put your site title here -->
-  <title>
-    Aditya Todi | Machine Learning Developer
-  </title>
+        <meta
+            name="description"
+            content="Passionate software developer with expertise in full-stack development and machine learning. Skilled in creating scalable, data-driven solutions that drive innovation and efficiency."
+        />
+        <!-- Add some coding keywords below, Ex: (React, CSS etc) -->
+        <meta
+            name="keywords"
+            content="Aditya Todi | Full Stack Developer, Machine Learning"
+        />
+        <link rel="stylesheet" href="index.css" />
+    </head>
 
-  <meta name="description" content="A Machine Learning Developer, driven by a fervor for harnessing the power of natural language to facilitate impactful decision-making.">
-  <!-- Add some coding keywords below, Ex: (React, CSS etc) -->
-  <meta name="keywords" content="Aditya Todi | Machine Learning, Data Science" />
-  <link rel="stylesheet" href="index.css" />
-</head>
+    <body>
+        <!-- ***** Header ***** -->
 
-<body>
-
-  <!-- ***** Header ***** -->
-
-  <header class="header" role="banner" id="top">
-    <div class="row">
-      <nav class="nav" role="navigation">
-        <ul class="nav__items">
-          <li class="nav__item"><a href="#work" class="nav__link">Research</a></li>
-          <li class="nav__item"><a href="#clients" class="nav__link">Employers</a></li>
-          <li class="nav__item">
-            <a href="#about" class="nav__link">About</a>
-          </li>
-          <li class="nav__item">
-            <a href="#contact" class="nav__link">Contact</a>
-          </li>
-        </ul>
-      </nav>
-    </div>
-    <div class="header__text-box row">
-      <div class="header__text">
-        <h1 class="heading-primary">
-          <!-- Replace the following name with your name -->
-          <span>Aditya Todi</span>
-        </h1>
-        <!-- Put a small paragraph about yourself -->
-        <p>A Machine Learning Developer, driven by a fervor for harnessing the power of natural language to facilitate impactful decision-making.</p>
-        <a href="#contact" class="btn btn--pink">Get in touch</a>
-      </div>
-    </div>
-  </header>
-
-  <main role="main">
-
-    <!-- ***** Work ***** -->
-
-    <section class="work" id="work">
-      <div class="row">
-        <h2>Research</h2>
-        <div class="work__boxes">
-
-          <!-- Each div with the work__box class is a project. -->
-
-          <div class="work__box">
-            <div class="work__text">
-              <h3>Analyzing User Behavior, Trends and Communities using Reddit Posts</h3>
-              <ul class="work__list">
-                <li>PyTorch</li>
-                <li>Transformer</li>
-                <li>Python</li>
-                <li>Topic Modelling</li>
-                <li>Sentiment Analysis</li>
-              </ul>
-
-              <div class="work__links">
-                <a href="https://drive.google.com/file/d/1_-KKOABPaFeT1U4P9gfEXcKpyJr8qY2z/view?usp=sharing" target="_blank" class="link__text">
-                  View Paper<span>&rarr;</span>
-                </a>
-                <a href="https://github.com/adityatodi/reddit-analysis/tree/main" title="View Source Code" target="_blank">
-                  <img src="./images/github.svg" class="work__code" alt="GitHub">
-                </a>
-              </div>
+        <header class="header" role="banner" id="top">
+            <div class="row">
+                <nav class="nav" role="navigation">
+                    <ul class="nav__items">
+                        <li class="nav__item">
+                            <a href="#projects" class="nav__link">Projects</a>
+                        </li>
+                        <li class="nav__item">
+                            <a href="#clients" class="nav__link">Employers</a>
+                        </li>
+                        <li class="nav__item">
+                            <a href="#about" class="nav__link">About</a>
+                        </li>
+                        <li class="nav__item">
+                            <a href="#contact" class="nav__link">Contact</a>
+                        </li>
+                        <li class="nav__item">
+                            <a href="#certifications" class="nav__link"
+                                >Certifications</a
+                            >
+                        </li>
+                    </ul>
+                </nav>
             </div>
-            <div class="work__image-box">
-              <img src="./images/data science paper.png" class="work__image" alt="Paper 1" style="width:1500px;height:700px;" />
+            <div class="header__text-box row">
+                <div class="header__text">
+                    <h1 class="heading-primary">
+                        <!-- Replace the following name with your name -->
+                        <span>Aditya Todi</span>
+                    </h1>
+                    <!-- Put a small paragraph about yourself -->
+                    <p>
+                        Passionate software developer with expertise in
+                        full-stack development and machine learning. Skilled in
+                        creating scalable, data-driven solutions that drive
+                        innovation and efficiency.
+                    </p>
+                    <a href="#contact" class="btn btn--pink">Get in touch</a>
+                </div>
             </div>
-          </div>
+        </header>
 
-          
-          <!-- <div class="work__box">
-            <div class="work__text">
-              <h3>Study on Detecting and Mitigating Hallucinations in Large Language Models</h3>
-              <ul class="work__list">
-                <li>Large Language Models</li>
-                <li>Generative AI</li>
-                <li>Hallucinations</li>
-                <li>Natural Language Processing</li>
-              </ul>
+        <main role="main">
+            <!-- ***** Work ***** -->
 
-              <div class="work__links">
-                <a href="https://docs.google.com/document/d/1ijJgXPIdryH-qV0KQVxQ8sM0RkYtG6L3o9Iw81XuAsE/edit?usp=sharing" target="_blank" class="link__text">
-                  View Paper <span>&rarr;</span>
-                </a> -->
-                <!-- <a href="https://github.com/nisarhassan12/portfolio" title="View Source Code" target="_blank">
-                  <img src="./images/github.svg" class="work__code" alt="GitHub">
-                </a> -->
-              <!-- </div>
-            </div>
-            <div class="work__image-box">
-              <img src="./images/hallucination_paper.png" class="work__image" alt="Paper 2" style="width:1500px;height:700px;" />
-            </div>
-          </div> -->
-        </div>
-      </div>
-    </section>
+            <section class="work" id="projects">
+                <div class="row">
+                    <h2>Projects</h2>
+                    <div class="work__boxes">
+                        <!-- Each div with the work__box class is a project. -->
 
-    <!-- ***** Clients ***** -->
+                        <!-- *** Javascript Project *** -->
+                        <div class="work__box">
+                            <div class="work__text">
+                                <h3>Restuarant App</h3>
+                                <ul class="work__list">
+                                    <li>Javascript</li>
+                                    <li>React-Native</li>
+                                    <li>States</li>
+                                    <li>Navigation Bars</li>
+                                </ul>
 
-    <section class="client" id="clients">
-      <div class="row">
-        <h2>Employers</h2>
-        <div class="client__logos">
-          <!-- Add logos of the clients or companies you'have worked with. -->
-          <a href="https://www.goldmansachs.com/" title="View Source Code" target="_blank">
-            <img src="./images/goldman_sachs.png" title="Goldman Sachs" class="work__code" alt="Comapny 1" style="width:150px;height:100px;">
-          </a>
-          <a href="https://www.bizamica.com/" title="View Source Code" target="_blank">
-            <img src="./images/bizamica_logo.jpg" title="BizAmica" class="work__code" alt="Comapny 2" style="width:150px;height:100px;">
-          </a>
-          <a href="https://www.stonybrook.edu/" title="View Source Code" target="_blank">
-            <img src="./images/stony_brook.jpg" title="Stony Brook University" class="work__code" alt="Comapny 3" style="width:150px;height:100px;">
-          </a>
-          <!-- <img src="./images/mighty-furnitures.png" class="client__logo" alt="Company 1" />
+                                <div class="work__links">
+                                    <a
+                                        href="https://github.com/adityatodi/Little-Lemon-Restuarant"
+                                        title="View Source Code"
+                                        target="_blank"
+                                    >
+                                        <img
+                                            src="./images/github.svg"
+                                            class="work__code"
+                                            alt="GitHub"
+                                        />
+                                    </a>
+                                </div>
+                            </div>
+                            <div class="work__image-box">
+                                <img
+                                    src="./images/welcome_landing.png"
+                                    class="work__image"
+                                    alt="Project 1"
+                                    style="width: 1500px; height: 700px"
+                                />
+                            </div>
+                        </div>
+
+                        <!-- *** Reddit Analysis Project *** -->
+                        <div class="work__box">
+                            <div class="work__text">
+                                <h3>
+                                    Analyzing User Behavior, Trends and
+                                    Communities using Reddit Posts
+                                </h3>
+                                <ul class="work__list">
+                                    <li>PyTorch</li>
+                                    <li>Transformer</li>
+                                    <li>Python</li>
+                                    <li>Topic Modelling</li>
+                                    <li>Sentiment Analysis</li>
+                                </ul>
+
+                                <div class="work__links">
+                                    <a
+                                        href="https://drive.google.com/file/d/1_-KKOABPaFeT1U4P9gfEXcKpyJr8qY2z/view?usp=sharing"
+                                        target="_blank"
+                                        class="link__text"
+                                    >
+                                        View Paper<span>&rarr;</span>
+                                    </a>
+                                    <a
+                                        href="https://github.com/adityatodi/reddit-analysis/tree/main"
+                                        title="View Source Code"
+                                        target="_blank"
+                                    >
+                                        <img
+                                            src="./images/github.svg"
+                                            class="work__code"
+                                            alt="GitHub"
+                                        />
+                                    </a>
+                                </div>
+                            </div>
+                            <div class="work__image-box">
+                                <img
+                                    src="./images/data science paper.png"
+                                    class="work__image"
+                                    alt="Paper 1"
+                                    style="width: 1500px; height: 700px"
+                                />
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+
+            <!-- ***** Clients ***** -->
+
+            <section class="client" id="clients">
+                <div class="row">
+                    <h2>Employers</h2>
+                    <div class="client__logos">
+                        <!-- Add logos of the clients or companies you'have worked with. -->
+                        <a
+                            href="https://www.goldmansachs.com/"
+                            title="View Source Code"
+                            target="_blank"
+                        >
+                            <img
+                                src="./images/goldman_sachs.png"
+                                title="Goldman Sachs"
+                                class="work__code"
+                                alt="Comapny 1"
+                                style="width: 150px; height: 100px"
+                            />
+                        </a>
+                        <a
+                            href="https://www.bizamica.com/"
+                            title="View Source Code"
+                            target="_blank"
+                        >
+                            <img
+                                src="./images/bizamica_logo.jpg"
+                                title="BizAmica"
+                                class="work__code"
+                                alt="Comapny 2"
+                                style="width: 150px; height: 100px"
+                            />
+                        </a>
+                        <a
+                            href="https://www.stonybrook.edu/"
+                            title="View Source Code"
+                            target="_blank"
+                        >
+                            <img
+                                src="./images/stony_brook.jpg"
+                                title="Stony Brook University"
+                                class="work__code"
+                                alt="Comapny 3"
+                                style="width: 150px; height: 100px"
+                            />
+                        </a>
+                        <!-- <img src="./images/mighty-furnitures.png" class="client__logo" alt="Company 1" />
           <img src="./images/fastlane.png" class="client__logo" alt="Company 3" />
           <img src="./images/chippy.png" class="client__logo" alt="Company 1" /> -->
-        </div>
-      </div>
-    </section>
+                    </div>
+                </div>
+            </section>
 
-    <!-- ***** About ***** -->
+            <!-- ***** About ***** -->
 
-    <section class="about" id="about">
-      <div class="row">
-        <h2>About Me</h2>
-        <div class="about__content">
-          <div class="about__text">
-            <!-- Replace the below paragraph with info about yourself -->
-            <p>
-                I am a MS Computer Science student at Stony Brook University,
-                where I am pursuing my passion for machine learning and artificial intelligence.
-            </p>
-            <!-- Provide a link to your resume -->
-            <a href="https://drive.google.com/file/d/1nfBuFkhmk2jmYHBNJoj49n23z0ND6_HG/view?usp=sharing" class="btn" target="_blank">My Resume</a>
-          </div>
+            <section class="about" id="about">
+                <div class="row">
+                    <h2>About Me</h2>
+                    <div class="about__content">
+                        <div class="about__text">
+                            <!-- Replace the below paragraph with info about yourself -->
+                            <p>
+                                I am a highly motivated MS Computer Science
+                                student at Stony Brook University, set to
+                                graduate in May 2024. With a strong passion for
+                                data-driven applications, I specialize in
+                                end-to-end software development and machine
+                                learning. <br />
+                                As a Full Stack Developer, I have 2+ years of
+                                experience at Goldman Sachs, where I
+                                successfully migrated legacy trading systems to
+                                scalable platforms using Java, Scala, and
+                                Node.js. I developed RESTful APIs, automated
+                                test cases, and collaborated cross-functionally
+                                to drive high adoption rates. <br />
+                                My expertise extends to Machine Learning, as
+                                demonstrated by my internship at bizAmica
+                                Software, where I designed a high-performing
+                                question-answering chatbot using PyTorch.
+                                <br />I am proficient in a wide range of
+                                programming languages, frameworks, and
+                                methodologies, including Java, Python,
+                                JavaScript, React Native, and Agile development.
+                                My projects showcase my ability to create
+                                responsive, cross-platform applications and
+                                develop supervised models for complex prediction
+                                tasks. <br />
+                                With a strong academic background, relevant work
+                                experience, and a drive for innovation, I am
+                                well-equipped to tackle challenging projects and
+                                contribute to cutting-edge advancements in
+                                software development and machine learning.
+                            </p>
+                            <!-- Provide a link to your resume -->
+                            <a
+                                href="https://drive.google.com/file/d/1nfBuFkhmk2jmYHBNJoj49n23z0ND6_HG/view?usp=sharing"
+                                class="btn"
+                                target="_blank"
+                                >My Resume</a
+                            >
+                        </div>
 
-          <div class="about__photo-container">
-            <!-- Add a nice photo of yourself -->
-            <img class="about__photo" src="./images/aditya_todi.jpg" alt="" />
-          </div>
-        </div>
-      </div>
-    </section>
-  </main>
+                        <div class="about__photo-container">
+                            <!-- Add a nice photo of yourself -->
+                            <img
+                                class="about__photo"
+                                src="./images/aditya_todi_headshot.png"
+                                alt=""
+                            />
+                        </div>
+                    </div>
+                </div>
+            </section>
+        </main>
 
-  <!-- ***** Contact ***** -->
+        <!-- ***** Certifications ***** -->
 
-  <section class="contact" id="contact">
-    <div class="row">
-      <h2>Get in Touch</h2>
-      <div class="contact__info">
-        <p>
-          Are you looking for someone to implement Generative AI capabilities 
-          in your business? Or want to ask questions? Or have some advice for me
-          or just want to say "Hi 👋". In any case feel free to let me know. 
-          I strive to respond promptly and effectively 😊 The quickest way to reach out to
-          me is via an email.
-        </p>
-        <!-- Replace the email with yours -->
-        <a href="mailto:atodi@cs.stonybrook.edu" class="btn">E-Mail: Aditya Todi</a>
-      </div>
-    </div>
-  </section>
+        <section class="certifications" id="certifications">
+            <div class="row">
+                <h2>Certifications</h2>
+                <div class="work__boxes">
+                    <!-- Each div with the work__box class is a certificate. -->
 
-  <!-- ***** Footer ***** -->
+                    <!-- *** Meta React Speicalization *** -->
+                    <div class="work__box">
+                        <div class="work__text">
+                            <h3>Meta React Specialization</h3>
+                            <ul class="work__list">
+                                <li>Javascript</li>
+                                <li>React-Native</li>
+                                <li>Database</li>
+                                <li>UI/UX Research</li>
+                            </ul>
 
-  <footer role="contentinfo" class="footer">
-    <div class="row">
-      <!-- Update the links to point to your accounts -->
-      <ul class="footer__social-links">
-        <li class="footer__social-link-item">
-          <a href="https://twitter.com/todi_aditya" title="Link to Twitter Profile" target="_blank">
-            <img src="./images/twitter.svg" class="footer__social-image" alt="Twitter">
-          </a>
-        </li>
-        <li class="footer__social-link-item">
-          <a href="https://github.com/adityatodi" title="Link to Github Profile" target="_blank">
-            <img src="./images/github.svg" class="footer__social-image" alt="Github">
-          </a>
-        </li>
-        <li class="footer__social-link-item">
-          <a href="https://leetcode.com/adityatodi97/" title="Link to Leetcode Profile" target="_blank">
-            <img src="./images/LeetCode_logo_white_no_text.svg" class="footer__social-image" alt="Leetcode">
-          </a>
-        </li>
-        <li class="footer__social-link-item">
-          <a href="https://www.linkedin.com/in/aditya-todi/" target="_blank">
-            <img src="./images/linkedin.svg" title="Link to Linkedin Profile" class="footer__social-image" alt="Linkedin">
-          </a>
-        </li>
-      </ul>
-    </div>
-  </footer>
+                            <div class="work__links">
+                                <a
+                                    href="https://drive.google.com/file/d/1gF9s0qS_2LWJTrBQ4LglBaWPoY5b41Ex/view?usp=sharing"
+                                    target="_blank"
+                                    class="link__text"
+                                >
+                                    View Certificate<span>&rarr;</span>
+                                </a>
+                            </div>
+                        </div>
+                        <div class="work__image-box">
+                            <img
+                                src="./images/meta_certificate.png"
+                                class="work__image"
+                                alt="Paper 1"
+                                style="width: 1500px; height: 700px"
+                            />
+                        </div>
+                    </div>
+                </div>
 
-  <a href="#top" class="back-to-top" title="Back to Top">
-    <img src="./images/arrow-up.svg" alt="Back to Top" class="back-to-top__image"/>
-  </a>
-  <script src="./index.js"></script>
-</body>
+                <!-- *** Natural Language Microspeicalization *** -->
+                <div class="work__box">
+                    <div class="work__text">
+                        <h3>Natural Language Processing Nanodegree</h3>
+                        <ul class="work__list">
+                            <li>Python</li>
+                            <li>PyTorch</li>
+                            <li>HuggingFace</li>
+                            <li>Transformers</li>
+                            <li>Large Language Models</li>
+                        </ul>
 
+                        <div class="work__links">
+                            <a
+                                href="https://drive.google.com/file/d/1YZYfAXCkzx5NeVMo9QZzB4eVJxCm1bfD/view?usp=sharing"
+                                target="_blank"
+                                class="link__text"
+                            >
+                                View Certificate<span>&rarr;</span>
+                            </a>
+                        </div>
+                    </div>
+                    <div class="work__image-box">
+                        <img
+                            src="./images/nlp_certificate.png"
+                            class="work__image"
+                            alt="Paper 1"
+                            style="width: 1500px; height: 700px"
+                        />
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- ***** Contact ***** -->
+
+        <section class="contact" id="contact">
+            <div class="row">
+                <h2>Get in Touch</h2>
+                <div class="contact__info">
+                    <p>
+                        Are you looking for someone to implement Generative AI
+                        capabilities in your business? Or want to ask questions?
+                        Or have some advice for me or just want to say "Hi 👋".
+                        In any case feel free to let me know. I strive to
+                        respond promptly and effectively 😊 The quickest way to
+                        reach out to me is via an email.
+                    </p>
+                    <!-- Replace the email with yours -->
+                    <a href="mailto:atodi@cs.stonybrook.edu" class="btn"
+                        >E-Mail: Aditya Todi</a
+                    >
+                </div>
+            </div>
+        </section>
+
+        <!-- ***** Footer ***** -->
+
+        <footer role="contentinfo" class="footer">
+            <div class="row">
+                <!-- Update the links to point to your accounts -->
+                <ul class="footer__social-links">
+                    <li class="footer__social-link-item">
+                        <a
+                            href="https://twitter.com/todi_aditya"
+                            title="Link to Twitter Profile"
+                            target="_blank"
+                        >
+                            <img
+                                src="./images/twitter.svg"
+                                class="footer__social-image"
+                                alt="Twitter"
+                            />
+                        </a>
+                    </li>
+                    <li class="footer__social-link-item">
+                        <a
+                            href="https://github.com/adityatodi"
+                            title="Link to Github Profile"
+                            target="_blank"
+                        >
+                            <img
+                                src="./images/github.svg"
+                                class="footer__social-image"
+                                alt="Github"
+                            />
+                        </a>
+                    </li>
+                    <li class="footer__social-link-item">
+                        <a
+                            href="https://leetcode.com/adityatodi97/"
+                            title="Link to Leetcode Profile"
+                            target="_blank"
+                        >
+                            <img
+                                src="./images/LeetCode_logo_white_no_text.svg"
+                                class="footer__social-image"
+                                alt="Leetcode"
+                            />
+                        </a>
+                    </li>
+                    <li class="footer__social-link-item">
+                        <a
+                            href="https://www.linkedin.com/in/aditya-todi/"
+                            target="_blank"
+                        >
+                            <img
+                                src="./images/linkedin.svg"
+                                title="Link to Linkedin Profile"
+                                class="footer__social-image"
+                                alt="Linkedin"
+                            />
+                        </a>
+                    </li>
+                </ul>
+            </div>
+        </footer>
+
+        <a href="#top" class="back-to-top" title="Back to Top">
+            <img
+                src="./images/arrow-up.svg"
+                alt="Back to Top"
+                class="back-to-top__image"
+            />
+        </a>
+        <script src="./index.js"></script>
+    </body>
 </html>
